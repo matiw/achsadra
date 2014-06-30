@@ -11,6 +11,8 @@
     
     <script type='text/javascript' src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type='text/javascript' src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+    
+    <script src='jquery.reel.js' type='text/javascript'></script>
 <!--    slides   -->
   	<link rel="stylesheet" href="./css/responsiveslides.css">
     <script src="responsiveslides.min.js"></script>
@@ -28,25 +30,7 @@
           });
         });
     </script>
-<!--    panorama 1   -->
-    <script src="jquery.cyclotron.js"></script>
-    <script>
-		$(document).ready(function ($) {
-			$('.cycle').cyclotron();
-		});
-    </script>
-<!--    panorama 2-->
-    <script src='jquery.reel.js' type='text/javascript'></script>    
-    <script>
-      $(function(){ // when DOM ready
-          return;
-        $('#image').reel({
-          stitched:    11294,
-          
-        });
-
-      });
-    </script>
+    
     
 </head>
 <body dir="rtl">
@@ -59,7 +43,7 @@
         <br />
         <br />
         <ul dir="rtl" class="menucategorylist">
-	        <li class="menucategory"><img src="images/menu01.png" style="height:1.5em"/>
+	        <li class="menucategory"><img src="images/menu01.png" style="height:1.5em;width:auto;"/>
 		        <ul dir="rtl" class="menuitemlist">
 		          <li class="menuitem"><a href="#">1 / אלי זולטא</a></li>
 		          <li class="menuitem"><a href="#">2 / שני ברונר</a></li>
@@ -90,13 +74,38 @@
         </ul>
     </div> 
 
-    <div data-role:"header" data-position="fixed">
-    </div>
 
-  	<div data-role="main" class="ui-content">
-        
-        <a href="index.html"><img src="images/logo-03.png" style="height:5em"></a>
+  	<div data-role="main" class="ui-content" style="padding:0;">
+<!--        <img src="chicago.jpg" style="width:100%;height:auto;max-height:100%;"-->
+             
+      <img src="mel.jpg" width="720" height="1280"
+        class="reel"
+        id="image"
+        data-image="mel-reel.jpg"
+        data-stitched="3000"
+        data-loops="false"
+        data-timeout="1"
+        data-responsive="true">
+        <a class="reel-annotation title"
+            href="https://maps.google.com/maps?ll=36.543225,-118.764481..."
+            id="title"
+            data-x="30"
+            data-y="30"
+            data-for="image">
+            <img src="images/point%20alone.png" style="height:3em;">
+        </a>
+        <a class="reel-annotation title"
+              href="#"
+              id="title1"
+              data-x="400"
+              data-y="120"
+              data-for="image">
+            <img src="images/point%20alone.png" style="height:3em;">
+        </a>
+        <div style="width: 100%;position: absolute;top: 0;left: 0;padding-top:1em;">
+	  <a href="index.html"><img src="images/logo-03.png" style="height:5em"></a>
         <h2>4 / מל רוזנברג</h2>
+	  </div>
     </div>
     
    <div data-role="footer" data-position="fixed" data-tap-toggle="false" style=="height:2em;">
