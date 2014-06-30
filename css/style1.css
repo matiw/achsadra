@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'NarkisBlockThinMFNormal';
+    src: url('../fonts/blockt.eot');
+    src: url('../fonts/blockt.eot') format('embedded-opentype'),
+         url('../fonts/blockt.woff') format('woff'),
+         url('../fonts/blockt.ttf') format('truetype'),
+         url('../fonts/blockt.svg#NarkisBlockThinMFNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    max-width: 720px;
+}
+body{
+    font-family: 'NarkisBlockThinMFNormal';
+    margin:0;
+}
+
+.ui-page { 
+    background: -webkit-linear-gradient(left, #4747FF 0%, #6600CC 100%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #4747FF 0%, #6600CC 100%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #4747FF 0%, #6600CC 100%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #4747FF 0%, #6600CC 100%); /* Standard syntax */
+}
+
+.ui-navbar li .ui-btn .ui-btn-inner, .ui-navbar li .ui-btn {
+    border-width: 0;
+}
+
+.ui-header {
+    text-align: center;
+}
+.ui-footer {
+    background: black;
+    color: white;
+    text-align: center;
+    border: 0;
+    
+}
+.ui-content {
+    
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px #000, 3px 3px 5px black;
+}
+td {
+    vertical-align:top;
+}
+
+#menu {
+    width: 50%;
+    border-right: none;
+    background: rgba(100,100,100,.7);
+    list-style:none ;
+/*    padding-top: 50px;*/
+    margin:0;
+    padding-right: 0;
+
+    color:white;
+    text-align: right
+}
+    
+.navbar {
+	position:relative;
+    margin: 20px; 
+}
+#searchpopup{
+    background-color: black;   
+}
+
+ul.menuitemlist {
+    list-style-type: none;
+}
+
+
+ul.menucategorylist{
+    list-style:none ;
+    margin:0;
+    padding: 0;
+}
+li.menucategory{
+    text-align: right;
+    margin:0;
+    padding: 0;
+}
+li.menuitem{
+    text-align: right;
+    line-height:150%;
+    font-size: 0.9em;
+        
+}
+a:link {
+    text-decoration: none;
+    color:white;
+}
+
+a:visited {
+    text-decoration: none;
+    color:white;
+}
+
+a:hover {
+    text-decoration: none;
+    color:white;
+}
+
+a:active {
+    text-decoration: none;
+    color:white;
+}
+
+.cover {
+    margin:50px;
+}
+.panoramapage {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'NarkisBlockThinMFNormal';
+    src: url('../fonts/blockt.eot');
+    src: url('../fonts/blockt.eot') format('embedded-opentype'),
+         url('../fonts/blockt.woff') format('woff'),
+         url('../fonts/blockt.ttf') format('truetype'),
+         url('../fonts/blockt.svg#NarkisBlockThinMFNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+body{
+    font-family: 'NarkisBlockThinMFNormal';
+}
+
+.ui-page {
+  background: -webkit-linear-gradient(left, #3C1A6E 0%, #5A348F 100%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #3C1A6E 0%, #5A348F 100%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #3C1A6E 0%, #5A348F 100%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #3C1A6E 0%, #5A348F 100%); /* Standard syntax */
+}
+
+.ui-navbar li .ui-btn .ui-btn-inner, .ui-navbar li .ui-btn {
+    border-width: 0;
+}
+
+.ui-icon {
+    width: 22px !important;
+    height: 22px !important;
+}
+.ui-content {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px #000, 3px 3px 5px black;
+}
+
+#footer{
+/*    background: transparent;*/
+/*    border: 0;*/
+/*    padding: 0.5em;*/
+}
+
+#menu {
+    width: 50%;
+/*    border: 1px solid #000;*/
+    border-right: none;
+    background: rgba(0,0,0,.4);
+    color:white;
+    text-align: right
+}
+button li{
+    background-color: rgba(0, 0, 0, 0);
+}
+    
+
+#footer-button-right {
+	position:absolute;
+	right:0;
+    border: 0;
+/*    background: transparent;*/
+    margin:0px;
+    display: inline-block;
+}
+#footer-button-left {
+	position:absolute;
+	left:0;
+    border: 0;
+/*    background: transparent;*/
+    margin:0px;
+    display: inline-block;
+}
+
+#footer-title{
+    color: white;
+    display: inline-block;
+    padding: 0;
+    margin:0px;
+    background-size: cover;
+    text-shadow: 1px 1px 1px #000, 3px 3px 5px black;
+}
+
+.fa {
+    color: white;
+}
+
+ul.menuitemlist {
+    list-style:none ;
+}
+
+
+ul.menucategorylist{
+    list-style:none ;
+}
+li.menucategory{
+    text-align: right;
+    font
+}
+li.menuitem{
+    text-align: right;
+    font-size: large;
+}
+a:link {
+    text-decoration: none;
+    color:white;
+}
+
+a:visited {
+    text-decoration: none;
+    color:white;
+}
+
+a:hover {
+    text-decoration: none;
+    color:white;
+}
+
+a:active {
+    text-decoration: none;
+    color:white;
+}
+
+.cover {
+    margin:50px;
+}
+.panoramapage {
+    margin: 0;
+    padding: 0;
+}
