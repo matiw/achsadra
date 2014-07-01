@@ -149,17 +149,21 @@
    <div data-role="footer" data-position="fixed" data-tap-toggle="false" id="footer">
         <div data-role="navbar">
             <ul>
-                <li><a href="#searchpopup" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all" data-position-to="original"><img src="images/search.png" style="height:1.6em"/></a></li>
+                <li><a href="#searchpopup" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all" data-position-to="window"><img src="images/search.png" style="height:1.6em"/></a></li>
                 <li><p style="font-size:1.5em;margin-top:0.3em;">1/ מוסיקה </p></li>
                 <li><a href="#menu"><img src="images/menu.png" style="height:1.6em"/></a></li>
             </ul>
         </div>
    </div>
-    <div data-role="popup" id="searchpopup" class="ui-content" >
+    <div data-role="popup" id="searchpopup" class="ui-content" style="border: 0 solid black">
         <table>
         <tr>
-            <td><input type="text" style="color:white;"></td>
-            <td><a href="#"><img src="images/search.png" style="height:1.5em;margin:0.35em" /></a></td>
+            <td>
+                <a href="#">
+                <img src="images/search.png" style="height:1.5em;margin:0.35em" />
+                </a>
+            </td>
+            <td><input type="text" style="background:white;"></td>
         </tr>
         </table>
     </div>
