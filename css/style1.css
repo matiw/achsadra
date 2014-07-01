@@ -59,7 +59,7 @@ td {
     border-right: none;
     background: rgba(100,100,100,.7);
     list-style:none ;
-/*    padding-top: 50px;
+    padding-top: 50px;
     margin:0;
     padding-right: 0;
 
@@ -117,7 +117,7 @@ a:active {
     color:white;
 }
 
-/*.cover {    margin:50px;}*/
+.cover {    margin:50px;}
 
 .panoramapage {
     margin: 0;
