@@ -51,7 +51,7 @@
 </head>
 <body dir="rtl">
  
-<!-- Participants  -->
+    
 <div data-role="page" id="main" >
     <div data-role="panel" id="menu" data-display="overlay" data-position="right" dir="rtl" style="margin-right=0"> 
         <a href="#" data-rel="close"><h2>&#10006;</h2></a>
@@ -101,18 +101,19 @@
         <h4>פרי מגדים 1 ת"א, ת.ד 2584</h4>
         <br />
         
-  <div class="ui-field-contain">
+  <div class="ui-field-contain" dir="rtl">
         <form action="http://getsimpleform.com/messages?form_api_token=e31dff6cea06a219071605982057a6fa" method="post">
           <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
           <input type='hidden' name='redirect_to' value='http://wartywaff.github.io/achsadra/' />
           <!-- all your input fields here.... -->
           
-     <label for="text-1">שם:</label>
-     <input type="text" name="name" id="name" value="">
-    <label for="email-1">דואר אלקטרוני:</label>
-    <input type="email" data-clear-btn="false" name="email-1" id="email-1" value="">
-    <label for="textarea-1">הודעה:</label>
-    <textarea name="message" id="message"></textarea>
+     <label for="text-1" style="text-align:right">שם:</label>
+     <input type="text" name="name" id="name" value="" style="background:white;">
+    <label for="email-1" style="text-align:right">דואר אלקטרוני:</label>
+    <input type="email" data-clear-btn="false" name="email-1" id="email-1" value="" style="background:white;">
+    <label for="textarea-1" style="text-align:right">הודעה:</label>
+    <textarea name="message" id="message" rows="10" style="background:white; height:auto;"  ></textarea>
+            <input type="submit" value="שלח" />
         </form>
       </div>
         

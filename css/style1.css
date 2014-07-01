@@ -27,6 +27,9 @@ body{
     background: linear-gradient(to right, #4747FF 0%, #6600CC 100%); /* Standard syntax */
 }
 
+
+/*    background: linear-gradient(to right, Gray 0%, IndianRed    100%);  Standard syntax*/
+
 .ui-navbar li .ui-btn .ui-btn-inner, .ui-navbar li .ui-btn {
     border-width: 0;
 }
@@ -56,7 +59,7 @@ td {
     border-right: none;
     background: rgba(100,100,100,.7);
     list-style:none ;
-/*    padding-top: 50px;*/
+/*    padding-top: 50px;
     margin:0;
     padding-right: 0;
 
@@ -114,9 +117,8 @@ a:active {
     color:white;
 }
 
-.cover {
-    margin:50px;
-}
+/*.cover {    margin:50px;}*/
+
 .panoramapage {
     margin: 0;
     padding: 0;
